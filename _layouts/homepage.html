@@ -41,6 +41,9 @@
         
         {% if site.avatar %}
         <a class="image avatar"><img src="{{ site.avatar }}" alt="avatar" /></a>
+        {% if site.avatar_credit %}
+        <div class="avatar-credit">&copy; {{ site.avatar_credit }}</div>
+        {% endif %}
         {% endif %}
 
         <h1>{{ site.title }}</h1>

@@ -7,7 +7,7 @@
 
 <li>
 <div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+  <div class="{% if link.image %}col-sm-3{% else %}col-sm-1{% endif %} abbr" style="position: relative;{% if link.image %}padding-right: 15px;padding-left: 15px;{% else %}padding-right: 0;padding-left: 0;width: 0;{% endif %}">
     {% if link.image %} 
     <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
     {% if link.conference_short %} 
@@ -15,7 +15,7 @@
     {% endif %}
     {% endif %}
   </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+  <div class="{% if link.image %}col-sm-9{% else %}col-sm-11{% endif %}" style="position: relative;{% if link.image %}padding-right: 15px;padding-left: 20px;{% else %}padding-right: 15px;padding-left: 0;width: 100%;{% endif %}">
       <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
       <div class="author">{{ link.authors }}</div>
       <div class="periodical"><em>{{ link.conference }}</em>

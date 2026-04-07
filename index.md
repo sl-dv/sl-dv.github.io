@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student in Computer Science at [TU Wien](https://informatics.tuwien.ac.at/) working with [Stefan Neumann](neumannstefan.com).
+I am a Ph.D. student in Computer Science at [TU Wien](https://informatics.tuwien.ac.at/) working with [Stefan Neumann](https://neumannstefan.com).
 
 I'm working on sublinear and streaming algorithms, with a focus on subgraph counting problems and their applications.
 

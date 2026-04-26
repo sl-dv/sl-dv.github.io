@@ -3,15 +3,18 @@ main:
   - title: Four-Cycle Counting in Low-Degeneracy Graph Streams
     authors: with Stefan Neumann and Pan Peng
     conference_short: KDD
-    conference: KDD 2026. To appear.
-    #pdf: https://arxiv.org/pdf/.pdf
-    #arxiv: https://arxiv.org/abs/
-    #code: https://github.com/sl-dv/EIS
+    conference: KDD 2026.
+    #PDF: https://arxiv.org/pdf/.pdf
+    #ArXiv: https://arxiv.org/abs/
+    ACM: https://dl.acm.org/doi/abs/10.1145/3770854.3780199
+    DOI: https://doi.org/10.1145/3770854.3780199
+    Code: https://github.com/sl-dv/EIS
 
   - title: Near-Optimal Four-Cycle Counting in Graph Streams
     authors: with Stefan Neumann and Pan Peng
     conference_short: SODA
     conference: SODA 2026.
-    pdf: https://arxiv.org/pdf/2604.00828.pdf
-    arxiv: https://arxiv.org/abs/2604.00828
+    PDF: https://arxiv.org/pdf/2604.00828.pdf
+    ArXiv: https://arxiv.org/abs/2604.00828
+    DOI: https://doi.org/10.1137/1.9781611978971.158
     #image: ./assets/img/soda_teaser.jpg

@@ -1,5 +1,11 @@
 main:
 
+  - title: Instance-Specific Approximation Ratios for Correlation Clustering and Max-Cut
+    authors: with Ioana-Oriana Bercea and Stefan Neumann
+    conference_short: ICML
+    conference: ICML 2026. To appear.
+    #Code: https://github.com/sl-dv/ISAR
+
   - title: Four-Cycle Counting in Low-Degeneracy Graph Streams
     authors: with Stefan Neumann and Pan Peng
     conference_short: KDD

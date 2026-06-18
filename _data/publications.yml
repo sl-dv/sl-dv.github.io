@@ -13,7 +13,7 @@ main:
     PDF: https://arxiv.org/pdf/2604.00828.pdf
     ArXiv: https://arxiv.org/abs/2604.00828
     DOI: https://doi.org/10.1137/1.9781611978971.158
-    Poster: ./assets/img/soda_poster.pdf
+    Poster: ./assets/img/soda26_poster.pdf
     #image: ./assets/img/soda_teaser.jpg
 
   - title: Four-Cycle Counting in Low-Degeneracy Graph Streams

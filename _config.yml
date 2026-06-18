@@ -11,12 +11,27 @@ keywords: Sebastian Luederssen, Sebastian Lüderssen, TU Wien, sublinear algorit
 description: Sebastian Lüderssen is a Ph.D. student in theoretical computer science at TU Wien working on sublinear algorithms.
 canonical: https://sl-dv.github.io/
 
-# Links 
-# If you don't need one of them, you may delete the corresponding line.
-google_scholar: https://scholar.google.com/citations?user=N34YhDgAAAAJ&hl=en
-#cv_link: assets/files/cv.pdf
-github_link: https://github.com/sl-dv
-#linkedin: https://www.linkedin.com/
+# Profile links
+# An icon can use either an [Academicons](https://jpswalsh.github.io/academicons/) or [Font Awesome](https://fontawesome.com/search?o=r&m=free) CSS class or an uploaded image.
+profile_links:
+  - label: Google Scholar
+    url: https://scholar.google.com/citations?user=N34YhDgAAAAJ&hl=en
+    icon: ai ai-google-scholar
+  - label: DBLP
+    url: https://dblp.org/pid/427/3967.html
+    icon: ai ai-dblp
+  - label: GitHub
+    url: https://github.com/sl-dv
+    icon: fab fa-github
+  # Example using an uploaded thumbnail:
+  # - label: My other profile
+  #   url: https://example.com/my-profile
+  #   image: /assets/img/links/example.png
+  # For a local link such as a CV, add "external: false":
+  # - label: CV
+  #   url: /assets/files/cv.pdf
+  #   icon: ai ai-cv
+  #   external: false
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 

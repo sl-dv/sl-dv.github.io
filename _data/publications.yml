@@ -13,14 +13,15 @@ main:
     PDF: https://arxiv.org/pdf/2604.00828.pdf
     ArXiv: https://arxiv.org/abs/2604.00828
     DOI: https://doi.org/10.1137/1.9781611978971.158
+    Poster: ./assets/img/soda_poster.pdf
     #image: ./assets/img/soda_teaser.jpg
 
   - title: Four-Cycle Counting in Low-Degeneracy Graph Streams
     authors: with Stefan Neumann and Pan Peng
     conference_short: KDD
     conference: KDD 2026.
-    #PDF: https://arxiv.org/pdf/.pdf
-    #ArXiv: https://arxiv.org/abs/
+    PDF: https://arxiv.org/pdf/2606.17732
+    ArXiv: https://arxiv.org/abs/2606.17732
     ACM: https://dl.acm.org/doi/abs/10.1145/3770854.3780199
-    DOI: https://doi.org/10.1145/3770854.3780199
+    #DOI: https://doi.org/10.1145/3770854.3780199
     Code: https://github.com/sl-dv/EIS

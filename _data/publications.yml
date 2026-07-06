@@ -4,7 +4,8 @@ main:
     authors: with Ioana-Oriana Bercea and Stefan Neumann
     conference_short: ICML
     conference: ICML 2026. To appear.
-    #Code: https://github.com/sl-dv/ISAR
+    PDF: https://openreview.net/pdf?id=s3atUwqKHs
+    Code: https://github.com/sl-dv/ISAR
 
   - title: Near-Optimal Four-Cycle Counting in Graph Streams
     authors: with Stefan Neumann and Pan Peng

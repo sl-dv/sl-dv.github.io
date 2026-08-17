@@ -22,3 +22,8 @@ Previously, I earned my Master's degrees in Mathematics and Computer Science fro
 
 {% include_relative _includes/publications.md %}
 
+<script
+  data-goatcounter="https://sl-dv.goatcounter.com/count"
+  async
+  src="//gc.zgo.at/count.js">
+</script>

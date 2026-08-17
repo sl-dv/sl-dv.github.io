@@ -18,7 +18,7 @@
     {% endif %}
   </div>
   <div class="{% if link.image %}col-sm-9{% else %}col-sm-11{% endif %}" style="position: relative;{% if link.image %}padding-right: 15px;padding-left: 20px;{% else %}padding-right: 15px;padding-left: 0;width: 100%;{% endif %}">
-      <div class="title"><a href="{{ link.PDF }}">{{ link.title }}</a></div>
+      <div class="title"><a href="{{ link.PDF }}" data-goatcounter-click="publication:{{ link.title | escape }}">{{ link.title }}</a></div>
       <div class="author">{{ link.authors }}</div>
       <div class="periodical"><em>{{ link.conference }}</em>
       </div>
@@ -30,7 +30,7 @@
       {% unless metadata_fields contains field_token %}
       {% if field_value %}
       {% assign link_label = field_name | replace: "_", " " %}
-      <a href="{{ field_value }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">{{ link_label }}</a>
+      <a href="{{ field_value }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;" data-goatcounter-click="publication:{{ link.title | escape }}">{{ link_label }}</a>
       {% endif %}
       {% endunless %}
       {% endfor %}

@@ -1,9 +1,16 @@
 main:
 
+  - title: Maker Breaker Games on a Budget
+    authors: with Fabien Nießen and Silas Rathke
+    #conference_short: 
+    #conference:
+    PDF: https://arxiv.org/pdf/2609.38138.pdf
+    ArXiv: https://arxiv.org/abs/2609.38138
+    
   - title: Instance-Specific Approximation Ratios for Correlation Clustering and Max-Cut
     authors: with Ioana-Oriana Bercea and Stefan Neumann
     conference_short: ICML
-    conference: ICML 2026. To appear.
+    conference: ICML 2026.
     PDF: https://openreview.net/pdf?id=s3atUwqKHs
     Code: https://github.com/sl-dv/ISAR
 
